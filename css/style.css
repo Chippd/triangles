@@ -1,15 +1,9 @@
 
 body {
-/*	background: #F2E9E4;*/
-	/* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to left, #ef32d9, #89fffd);*/
-	/* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to left, #ef32d9, #89fffd);*/
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/*	height: 100%;
-	margin: 0;
-	background-repeat: no-repeat;
-	background-attachment: fixed;*/
+  background: url(../img/triangleSVG.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, h5{
@@ -26,7 +20,8 @@ p {
 
 .profile-pic {
 	box-shadow: 0px 4px 6px 2px lightgrey;
-  border-radius: 50%
+  border-radius: 50%;
+  max-width: 70%;
 }
 
 .m-t-1 {
@@ -97,4 +92,12 @@ p {
 .btn-launch:focus {
 	color: white;
 	background: #3d7140;
+}
+
+.side-content {
+	position:fixed;
+	background: white;
+	border-radius:5px;
+	box-shadow: 0 0 2px 2px lightgrey;
+	padding: 30px;
 }
