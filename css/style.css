@@ -4,6 +4,12 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0 5vw;
+}
+
+.nav-default {
+	background: white;
+
 }
 
 h1, h2, h3, h4, h5{
@@ -16,6 +22,22 @@ p {
 	color: #4A4E69;
 	font-weight: 300;
 	font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+	padding-top:50px;
+}
+
+.bottom-cta {
+	background: white;
+	position: fixed;
+	width: 100%;
+	padding: 15px;
+	box-shadow: 0 0 2px 3px lightgrey;
+	left: 0;
+	z-index: 10000;
+	/*transition: all 0.5s ease;*/
+	bottom: 0;
 }
 
 .profile-pic {

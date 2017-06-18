@@ -38,8 +38,14 @@
 	</head>
 	<body>
 
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default hidden-sm hidden-md hidden-lg navbar-fixed-top">
 			<div class="container-fluid">
+<!-- 				<a class="navbar-brand">
+					<img src="img/profiler-round2.png" width=70 class="profile-pic">
+				</a>
+ -->
+				<!-- <p class="navbar-text">Chris Dermody | Developer</p> -->
+				
 <!-- 		    	<p class="navbar-text navbar-right"><a href="#" class="navbar-link">Get In Touch</a></p>
 				<p class="navbar-text">Hire Me</p> -->
 			</div>
@@ -47,7 +53,7 @@
 
 
 
-		<div class="container">
+		<div class="container main-container">
 
 
 			<div class="row">
@@ -64,6 +70,23 @@
 								chrisdermody.com
 							</a>
 						</div>
+				</div>
+
+				<div class="text-center hidden-sm hidden-md hidden-lg">
+						<img src="img/profiler-round2.png" width=200 class="profile-pic img-responsive center-block">
+						<h1>Chris Dermody</h1>
+						<h2>Product Manager</h2>
+						<h3>Web/Mobile Developer</h3>
+
+						<div class="text-center" style="margin:20px">
+							<a href="http://chrisdermody.com/" class="" target="_blank">
+								chrisdermody.com
+							</a>
+						</div>
+				</div>
+
+				<div class="bottom-cta hidden-sm hidden-md hidden-lg text-center">
+					<a href="mailto:test@test.com" class="btn btn-success">Get In Touch</a>
 				</div>
 
 
@@ -228,6 +251,17 @@
 		<script src="js/jquery-3.1.0.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<!-- <script src="js/myScripts.js"></script> -->
+
+		<script>
+			$(document).scroll(function() {
+			  var y = $(this).scrollTop();
+			  if (y > 500) {
+			    $('.bottom-cta').slideDown();
+			  } else {
+			    $('.bottom-cta').slideUp();
+			  }
+			});
+		</script>
 
 	</body>
 </html>
