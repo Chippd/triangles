@@ -36,8 +36,18 @@ p {
 	box-shadow: 0 0 2px 3px lightgrey;
 	left: 0;
 	z-index: 10000;
-	/*transition: all 0.5s ease;*/
 	bottom: 0;
+}
+
+.cta-icon {
+	font-size:2.5em;
+	margin:5px;
+}
+
+
+.cta-icon:hover,
+.cta-icon:focus {
+	text-decoration: none;
 }
 
 .profile-pic {
