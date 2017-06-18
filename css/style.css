@@ -44,20 +44,6 @@ p {
 	border-radius:0;
 }
 
-.row-grey {
-	background-color: lightgrey;
-	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-	padding: 65px 10px;
-}
-
-.row-white {
-	/*background-color: lightgrey;*/
-	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
-	/*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
-	padding: 65px 10px;
-}
-
 .row-footer {
 /*	background-color: lightgrey;
 	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
@@ -67,6 +53,7 @@ p {
 
 .work-item-row {
 	/*padding: 10% 0;*/
+	margin-bottom:100px;
 }
 
 .row-tools {
@@ -96,6 +83,13 @@ p {
 
 .side-content {
 	position:fixed;
+/*	background: white;
+	border-radius:5px;
+	box-shadow: 0 0 2px 2px lightgrey;
+	padding: 30px;*/
+}
+
+.project {
 	background: white;
 	border-radius:5px;
 	box-shadow: 0 0 2px 2px lightgrey;
