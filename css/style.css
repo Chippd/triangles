@@ -28,6 +28,18 @@ p {
 	padding-top:50px;
 }
 
+.about-me h1 {
+	font-size:24px;
+}
+
+.about-me h2 {
+	font-size:20px;
+}
+
+.about-me h3 {
+	font-size:18px;
+}
+
 .bottom-cta {
 	background: white;
 	position: fixed;
@@ -40,7 +52,7 @@ p {
 }
 
 .cta-icon {
-	font-size:2.5em;
+	font-size:2em;
 	margin:5px;
 }
 
@@ -56,32 +68,32 @@ p {
   max-width: 70%;
 }
 
-.m-t-1 {
+/*.m-t-1 {
 	margin-top:1em;
 }
 
 .p-t-1 {
 	padding-top:1em;
-}
+}*/
 
 
-.about-me {
+/*.about-me {
 	margin-top:25px;
-}
+}*/
 
-.navbar-default {
+/*.navbar-default {
 	background-color: #C9ADA7;
 	background: none;
 	border: none;
 	border-radius:0;
-}
+}*/
 
-.row-footer {
-/*	background-color: lightgrey;
+/*.row-footer {
+	background-color: lightgrey;
 	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
-	clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
+	clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
 	padding: 65px 10px;
-}
+}*/
 
 .work-item-row {
 	/*padding: 10% 0;*/
@@ -92,12 +104,12 @@ p {
   padding: 50px 0;
 }
 
-.linkedin-btn {
+/*.linkedin-btn {
 	width:140px;
 	box-shadow: 0px 2px 5px 1px lightgrey;
 	padding: 12px;
 	border-radius: 5px;
-}
+}*/
 
 .btn-launch {
 	width:100%;
@@ -113,12 +125,8 @@ p {
 	background: #3d7140;
 }
 
-.side-content {
+.about-side {
 	position:fixed;
-/*	background: white;
-	border-radius:5px;
-	box-shadow: 0 0 2px 2px lightgrey;
-	padding: 30px;*/
 }
 
 .project {
